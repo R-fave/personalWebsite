@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 3px;
+}
+
+body {
+  background-color: #d6e2ef;
+  font-family: "Outfit", sans-serif;
+}
+
+section {
+  background-color: white;
+  width: 350px;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 100px auto 5px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.goalDiv {
+  margin-top: 20px;
+}
+
+.linkDiv {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
